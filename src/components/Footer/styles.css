@@ -1,0 +1,36 @@
+footer#rodape {
+	clear: both; 
+    background-color: rgb(209, 209, 209);
+    padding: 1%;
+    width: 100%;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-border-top-radius: 10px;
+    -moz-border-top-radius: 10px; */
+    box-shadow: inset 0px 0px 10px #4682B4;
+    -moz-box-shadow: inset 0px 0px 10px #4682B4;
+    -webkit-box-shadow: inset 0px 0px 10px #4682B4;
+    position:absolute !important;    
+}
+
+footer#rodape a#link {
+    color: #000000;
+}
+
+footer#rodape a#link:hover {
+    color: rgb(250, 2, 2);
+}
+
+footer#rodape p {
+	text-align: center;
+        font-size: 9pt;
+        color: #000000;
+        font-family: sans-serif;
+}
+
+@media only screen and (max-device-width: 580px) {
+    footer#rodape {
+        width: 510px;
+        padding: 2%;
+    }
+}
