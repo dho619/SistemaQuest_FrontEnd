@@ -6,7 +6,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory'
 
 //endereco api
 const httpLink = createHttpLink({
-  uri: 'http://192.168.0.62:4000/'
+  uri: process.env.REACT_APP_API_URL
 })
 //ApolloLink
 const authLink = setContext((_, { headers }) => {
